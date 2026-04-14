@@ -1,19 +1,16 @@
 <template>
 	<main>
 		<div class="container">
-			<h1>Application list</h1>
-
-			<ul class="app-list">
-				<li><router-link :to="{ name: 'users' }">Users</router-link></li>
-				<li><router-link :to="{ name: 'tm' }">TM</router-link></li>
-			</ul>
+			<h1>Users</h1>
 		</div>
+		<Button label="Button" icon="pi-user" />
 	</main>
 </template>
 
 <script setup lang="ts">
 	// @@@ @js@
 	import { ref } from 'vue';
+	import Button from 'primevue/button'
 
 	const props = defineProps<{
 	}>();
@@ -39,24 +36,4 @@
 
 <style lang="scss" scoped>
 /* @@@ @SCSS@ */
-.app-list {
-	font-size: 1.5rem;
-	margin-top: 1.5rem;
-
-	li {
-		&:not(:first-child) {
-			border-top: 1px solid #c0c0c0;
-		}
-		a {
-			color: #808080;
-			outline: none;
-			display: block;
-			padding: 9px 0;
-
-			&:hover {
-				color: #333;	
-			}
-		}
-	}
-}
 </style>

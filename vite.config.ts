@@ -14,7 +14,9 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
+      '@users': fileURLToPath(new URL('./src/apps/users', import.meta.url)),
+      '@tm': fileURLToPath(new URL('./src/apps/tm', import.meta.url)),
     },
     extensions: ['*', '.js', '.ts', '.vue', '.json']
   },
