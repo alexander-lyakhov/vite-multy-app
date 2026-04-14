@@ -5,6 +5,9 @@ import {
   updateSurfacePalette,
 } from '@primeuix/themes';
 
+// https://primevue.org/theming/styled/#colors
+// https://github.com/primefaces/primeuix/tree/main/packages/themes/src/presets
+
 import PrimeVue        from 'primevue/config';
 import SelectedTheme   from '@primeuix/themes/aura';
 
