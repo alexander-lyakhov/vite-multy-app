@@ -1,31 +1,35 @@
 <template>
-	<h1>TM</h1>
+  <main>
+    <div class="container">
+      <h1>TM</h1>
+    </div>
+  </main>
 </template>
 
 <script setup lang="ts">
-	// @@@ @js@
-	import { ref } from 'vue';
+  // @@@ @js@
+  import { ref } from 'vue';
 
-	const props = defineProps<{
-	}>();
+  const props = defineProps<{
+  }>();
 
-	// @@@ data definition
-	//--------------------------------------------------------------------------
+  // @@@ data definition
+  //--------------------------------------------------------------------------
 
-	//--------------------------------------------------------------------------
-	// end of data definition
+  //--------------------------------------------------------------------------
+  // end of data definition
 
-	/***
-	**** @@@ Hooks
-	***/
+  /***
+  **** @@@ Hooks
+  ***/
 
-	/***
-	**** @@@ Computed
-	***/
+  /***
+  **** @@@ Computed
+  ***/
 
-	/***
-	**** @@@ Methods
-	***/
+  /***
+  **** @@@ Methods
+  ***/
 </script>
 
 <style lang="scss" scoped>

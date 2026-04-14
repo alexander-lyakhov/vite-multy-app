@@ -2,8 +2,11 @@
 	<main>
 		<div class="container">
 			<h1>Users</h1>
+			<Button label="Button" icon="pi-user" />
+			<div>
+				asdasdasd
+			</div>
 		</div>
-		<Button label="Button" icon="pi-user" />
 	</main>
 </template>
 
