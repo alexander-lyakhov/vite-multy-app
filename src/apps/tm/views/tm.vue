@@ -8,7 +8,6 @@
 
 <script setup lang="ts">
   // @@@ @js@
-  import { ref } from 'vue';
 
   const props = defineProps<{
   }>();
